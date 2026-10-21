@@ -41,7 +41,7 @@ function ServiceCard({ service, index, t }: { service: Copy['services'][number];
 
 export default function Services({ t }: { t: Copy }) {
   return <section id="services" className="services wrap">
-    <div className="section-intro"><p className="eyebrow">{t.servicesLabel}</p><div className="section-title-row"><h2>{t.servicesTitle}</h2></div></div>
+    <div className="section-intro"><div className="section-title-row"><h2>{t.servicesTitle}</h2></div></div>
     <div className="service-grid">{t.services.map((service, index) => <ServiceCard key={service.title} service={service} index={index} t={t}/>)}</div>
   </section>;
 }
