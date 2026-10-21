@@ -1,0 +1,222 @@
+export default {
+ lang:'en', title:'Ira — Websites, AI & automation for small businesses in Toronto', description:'Independent digital specialist in Toronto. Websites from CAD 300, online booking, practical automation, content and research. English and Russian.',
+ nav:['Services','About me','Let’s talk'], brand:'ira', brandSub:'DIGITAL SOLUTIONS', location:'TORONTO, CANADA', availability:'Independent specialist · RU / EN', eyebrow:"DIGITAL SOLUTIONS · TORONTO", hero:['Websites, AI &','a little more','possibility.'], heroExact:"AI for Small Businesses", intro:"I help small business owners use modern technology and artificial intelligence to grow their businesses and spend less time on routine tasks.", cta:"Discuss Your Project", price:'Websites from CAD 300', note:"Initial project discussion",   scroll:'Explore what we can do',
+ heroServices: [{"title": "Website Creation", "detail": "— from CAD 300"}, {"title": "Online Booking", "detail": "and appointment management"}, {"title": "Social Media Content", "detail": "and automated scheduling"}, {"title": "Customer Acquisition", "detail": "and marketing channel analysis"}, {"title": "Business Process Automation", "detail": "— inquiries, documents, and repetitive tasks"}],
+ heroBenefits: {"title": "Fast, affordable, and hassle-free.", "text": "I use AI and ready-made digital tools to reduce development time and costs. I'll set everything up for your business and show you how to use it."},
+ servicesLabel:'01 / HOW I CAN HELP', servicesTitle:"What Can AI and Technology Simplify for Your Business?", servicesIntro:"From your first website to automating everyday tasks. We'll find a practical solution that fits your business and its needs.", demo:"Illustrative demo", example:'For example', deliverables:'What we can include', inquire:'Discuss this service',
+ caseLabels: {"learnMore": "Learn more", "learnLess": "Show less", "problem": "The problem", "current": "How it often works today", "solution": "The solution", "features": "Possible features", "workflow": "Example workflow", "deliverables": "Deliverables", "benefit": "Practical benefits", "audience": "For"},
+ services: [
+  {
+    "title": "Online Booking & Calendar",
+    "audience": "Beauty salons, nail technicians, estheticians, and appointment-based businesses.",
+    "description": "Make it easy for customers to book available appointments while keeping your schedule organized.",
+    "price": "Custom quote",
+    "problem": "Customers book through Instagram, WhatsApp, phone calls, and direct messages. The owner spends time checking availability, coordinating appointments, and dealing with possible scheduling conflicts or missed inquiries.",
+    "current": "Bookings arrive through several channels, and available times are checked manually.",
+    "solution": "Set up an online booking system where customers select a service, choose an available date and time, and confirm their appointment.",
+    "items": [
+      "Service list and appointment durations.",
+      "Working hours and availability rules.",
+      "Available time slots.",
+      "Automatic blocking of booked slots.",
+      "Booking confirmations.",
+      "Reminders and notifications, where supported.",
+      "A calendar for managing appointments."
+    ],
+    "steps": [],
+    "deliverables": [],
+    "benefit": "Less back-and-forth messaging, fewer scheduling conflicts, and a simpler booking experience.",
+    "note": ""
+  },
+  {
+    "title": "Websites & Landing Pages",
+    "audience": "Furniture makers, furniture assembly services, renovation contractors, and local service businesses.",
+    "description": "A clear, mobile-friendly website that showcases your work, explains your services, and helps customers request a quote.",
+    "price": "From CAD 300",
+    "problem": "Potential customers see your work on social media but cannot easily find your services, approximate pricing, turnaround times, or the next step to request a quote.",
+    "current": "Portfolio examples and answers to common questions are scattered across posts and messages.",
+    "solution": "Build a professional website or landing page with an organized portfolio, useful service information, pricing guidance, and an inquiry form.",
+    "items": [
+      "Mobile and desktop layouts.",
+      "Service descriptions.",
+      "Project portfolio.",
+      "Starting prices or service packages.",
+      "Expected timelines.",
+      "Explanation of the customer process.",
+      "Quote request form.",
+      "Optional photo or measurement uploads.",
+      "Optional interactive budget slider.",
+      "Contact details."
+    ],
+    "steps": [],
+    "deliverables": [],
+    "benefit": "Customers understand what you offer and can submit more useful inquiries. You spend less time answering the same basic questions.",
+    "note": "CAD 300 is the starting price for a simple website. Advanced calculators, complex forms, and custom functionality are quoted separately."
+  },
+  {
+    "title": "Social Media Content Packages",
+    "audience": "New coffee shops, small retailers, beauty studios, and local brands.",
+    "description": "A month of ready-to-publish content, including ideas, captions, and visuals, so you can stay consistent without creating everything from scratch.",
+    "price": "Based on package size",
+    "problem": "A new coffee shop has plenty of day-to-day operational demands. The owner wants to post consistently but has limited time to plan content, write captions, and prepare visuals.",
+    "current": "Each post is created individually between day-to-day tasks.",
+    "solution": "Create a coordinated monthly content package.",
+    "items": [
+      "30 ready-to-publish posts.",
+      "Monthly content calendar.",
+      "Topics and recurring content themes.",
+      "Written captions.",
+      "AI-assisted images and graphic design.",
+      "Posts featuring menu items, seasonal offers, and the coffee shop's atmosphere.",
+      "Organized publishing assets.",
+      "Optional scheduling setup where supported."
+    ],
+    "steps": [],
+    "deliverables": [],
+    "benefit": "A consistent content plan without the daily burden of creating every post.",
+    "note": "No guarantees of followers, leads, or sales. Videos, Reels, and music are not included."
+  },
+  {
+    "title": "AI Workflow Audit & Business Automation",
+    "audience": "Small manufacturers, workshops, and operations-heavy businesses.",
+    "description": "I review how your business operates, identify repetitive tasks, and help simplify them using AI and automation.",
+    "price": "Custom quote",
+    "problem": "A small furniture workshop regularly purchases materials. An administrator requests supplier quotes, reviews emails, copies information into spreadsheets, compares prices and delivery times, and prepares a summary for the owner.\nThis recurring work takes time.",
+    "current": "Supplier quotes arrive by email; prices and delivery times are copied into spreadsheets by hand.",
+    "solution": "Review the current workflow, identify repetitive steps, and implement practical tools to organize and automate suitable tasks.",
+    "items": [
+      "Customer inquiry intake.",
+      "Document organization.",
+      "Information extraction.",
+      "Status tracking.",
+      "Notifications.",
+      "Drafting responses and reports."
+    ],
+    "steps": [
+      "The administrator uploads supplier quotes.",
+      "The information is organized in one table.",
+      "AI helps extract product names, prices, and terms.",
+      "A comparison summary is prepared.",
+      "A team member verifies the extracted information.",
+      "The owner receives a structured overview."
+    ],
+    "deliverables": [],
+    "benefit": "Less manual copying, more organized information, and quicker preparation of operational decisions.",
+    "note": "Important data must be reviewed by a person. Before documents are shared, we agree on access, approved tools, redaction, and deletion."
+  },
+  {
+    "title": "Customer Acquisition & Marketing Channel Analysis",
+    "audience": "Local businesses looking to understand where customers come from and which marketing channels deserve attention.",
+    "description": "Understand how customers find your business, where potential inquiries may be lost, and which acquisition channels are worth testing.",
+    "price": "Custom quote",
+    "problem": "A business owner posts on social media, experiments with advertising, or invests in a website without a clear picture of which activities lead to actual inquiries.",
+    "current": "Several channels are used without one clear overview of the path to an inquiry.",
+    "solution": "Review the business's online presence and the customer's journey from discovery to inquiry.",
+    "items": [
+      "Website clarity and usability.",
+      "Social media.",
+      "Google Business Profile.",
+      "SEO and search visibility.",
+      "Paid advertising, where data is available.",
+      "Competitor positioning.",
+      "Customer journey.",
+      "Inquiry forms and contact points."
+    ],
+    "steps": [],
+    "deliverables": [
+      "Current-state overview.",
+      "Potential conversion issues.",
+      "Prioritized recommendations.",
+      "Acquisition channel hypotheses.",
+      "Practical first experiments."
+    ],
+    "benefit": "A clearer understanding of marketing opportunities and a prioritized plan for what to test next.",
+    "note": "No guaranteed traffic, lead, or revenue increases."
+  }
+],
+ safeguards: "All cases are illustrative scenarios, not completed client projects. Important AI outputs are reviewed by a person. Content and analysis do not guarantee followers, inquiries, or revenue.",
+ aboutLabel: "02 / ABOUT ME",
+ aboutTitle: "Technology for Your Business, Without the Complexity",
+ about: ["My name is Ira. I've spent over 8 years working with digital products and technology companies, from booking platforms to large educational products serving users around the world.", "I specialize in identifying opportunities to improve how businesses operate and turning complex processes into practical, easy-to-use solutions.", "Today, I help small businesses use AI and modern digital tools to build websites, automate everyday tasks, and improve how they work with customers."],
+ aboutAssurance: "I'll set everything up and show you how to use it. You don't need to figure out the technology yourself.",
+ aboutCaption: "Toronto, Canada · Russian / English",
+ portraitAlt: "Ira — digital solutions specialist",
+ portraitPlaceholderAlt: "Placeholder for a real photograph of Ira",
+ contactLabel:'03 / LET’S START WITH A CONVERSATION', contactTitle:'Tell me about\nyour project', contactIntro:'Tell me about your business and what you’d like to improve. I’ll review your request and get in touch to discuss a possible solution.', email:'Your email', request:'Tell me about your project', placeholder:'What do you do, and what would you like help with?', send:'Send inquiry', sending:'Sending…', success:'Your inquiry was accepted for email delivery. Thank you — I’ll be in touch.', error:'The inquiry could not be sent. Please try again later.', invalid:'Enter a valid email and a request of 10–5,000 characters.', unavailable:'The contact form is being set up. Online submissions are not available yet.', challenge:'Please complete the spam check before sending.', privacyShort:'Your details are used only to respond to your inquiry. Please don’t include sensitive information.', privacy:'Privacy', privacyTitle:'Your information, handled thoughtfully', privacyText:'This form collects your email and request so Ira can respond. When enabled, Cloudflare processes the spam check and hosting, and Resend processes email delivery. There is no marketing subscription or analytics tracking. Inquiries are kept only as needed to respond and manage the work; retention and deletion requests can be discussed using the published contact email once configured. Please do not send passwords, health information, or confidential documents through this form.', cloudflarePrivacy:'Cloudflare privacy policy', close:'Close', footer:'Independent digital solutions for small businesses.', contactPlaceholder:'Contact email to be added', rights:'All rights reserved.',
+ caseDemo: {
+  "furniture": "FORM / STUDIO",
+  "furnitureTitle": "Furniture made\nfor your everyday.",
+  "furnitureSub": "Custom pieces. Assembly. Thoughtful spaces.",
+  "furnitureNav": "Services · Portfolio",
+  "furniturePrice": "Simple websites from CAD 300",
+  "budget": "Indicative project budget",
+  "budgetNote": "Demo budget only — not a quote.",
+  "quote": "Request a quote",
+  "roomAlt": "Original illustration of a wood furniture project",
+  "service": "Service",
+  "consultation": "Consultation · 30 min",
+  "owner": "Owner overview",
+  "confirmed": "confirmed",
+  "coffee": "DAILY / COFFEE",
+  "coffeeTitle": "A month of good mornings.",
+  "package": "30-post example package · 9 shown",
+  "coffeeTiles": [
+    "Morning ritual",
+    "Freshly baked",
+    "A quiet corner",
+    "Seasonal sips",
+    "Made with care",
+    "Your daily pause",
+    "Something sweet",
+    "Meet at Daily",
+    "Slow Sundays"
+  ],
+  "calendar": "Monthly plan",
+  "captionLabel": "Sample caption",
+  "caption": "A warm cup, a fresh pastry, a moment just for you.",
+  "procurement": "From supplier quotes to a clear decision.",
+  "procurementSteps": [
+    "Supplier quotes",
+    "AI extraction",
+    "Comparison",
+    "Human review",
+    "Summary"
+  ],
+  "sample": "Fictional sample data · CAD",
+  "tableCaption": "Illustrative supplier comparison",
+  "supplier": "Supplier",
+  "price": "Price",
+  "delivery": "Delivery",
+  "terms": "Conditions",
+  "supplierNames": [
+    "Sample A",
+    "Sample B",
+    "Sample C"
+  ],
+  "deliveryValues": [
+    "3 days",
+    "5 days",
+    "2 days"
+  ],
+  "termsValues": [
+    "Pickup",
+    "Delivery extra",
+    "Delivery included"
+  ],
+  "review": "Human verification before a decision",
+  "acquisition": "See the path to an inquiry.",
+  "channels": [
+    "Google Search / SEO",
+    "Social media",
+    "Paid ads"
+  ],
+  "journey": [
+    "Discover",
+    "Visit website",
+    "Inquire / book"
+  ],
+  "audit": "Review clarity, contact points, and channel opportunities.",
+  "noResults": "Illustrative journey · no performance claims"
+},
+ mock:{renovation:'NORTH / HOME',renoTitle:'A better space\nto come home to.',renoSub:'Thoughtful renovations. Built around you.',quote:'Request a quote',renoNav:'Services    Projects    Contact',salon:'STUDIO / BLOOM',booking:'A moment for yourself.',service:'Signature facial · 60 min',month:'October · illustrative availability',days:['M','T','W','T','F'],select:'Select a time',confirm:'Confirm demo booking',confirmed:'Demo booking confirmed',demoOnly:'Interactive demo only. No appointment is saved.',workflow:'A smoother path from inquiry to reply',steps:['Request + photos','Organize information','Notify the owner','AI draft → human review'],human:'YOU STAY IN CONTROL',content:'A month, thoughtfully planned.',contentLabels:['CARE TIPS','YOUR STUDIO','A LITTLE INSPIRATION'],research:'Find the next useful opportunity.',researchLabels:['Website','Google presence','Inquiry journey'],documents:'From scattered to structured.',docLabels:['Research / sources','Document summaries','Translations / reference']}
+};

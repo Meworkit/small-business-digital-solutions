@@ -1,0 +1,4 @@
+name = "small-business-digital-solutions"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-10-20"
+# Add server secrets in Cloudflare Pages settings; never put them here.
