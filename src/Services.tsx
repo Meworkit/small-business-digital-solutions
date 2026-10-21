@@ -12,6 +12,7 @@ function ServiceCard({ service, index, t }: { service: Copy['services'][number];
     <button type="button" className="case-image" onClick={() => lightbox.current?.showModal()} aria-label={`${labels.enlarge}: ${service.imageAlt}`}>
       <img src={service.image} alt={service.imageAlt} width="1536" height="1024" loading="lazy" />
       <span className="case-number" aria-hidden="true">0{index + 1}</span>
+      <span className="case-demo-tag">{t.demo}</span>
     </button>
     <div className="service-body">
       <h3>{service.title}</h3>
@@ -40,8 +41,7 @@ function ServiceCard({ service, index, t }: { service: Copy['services'][number];
 
 export default function Services({ t }: { t: Copy }) {
   return <section id="services" className="services wrap">
-    <div className="section-intro"><p className="eyebrow">{t.servicesLabel}</p><div className="section-title-row"><h2>{t.servicesTitle}</h2><p>{t.servicesIntro}</p></div></div>
+    <div className="section-intro"><p className="eyebrow">{t.servicesLabel}</p><div className="section-title-row"><h2>{t.servicesTitle}</h2></div></div>
     <div className="service-grid">{t.services.map((service, index) => <ServiceCard key={service.title} service={service} index={index} t={t}/>)}</div>
-    <p className="safeguards">{t.safeguards}</p>
   </section>;
 }
