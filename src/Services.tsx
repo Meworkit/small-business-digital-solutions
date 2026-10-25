@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
 import type en from './locales/en';
+import { getInquiryUrl } from './contact';
 
 type Copy = typeof en;
 
@@ -30,7 +31,7 @@ function ServiceCard({ service, index, t }: { service: Copy['services'][number];
       {service.deliverables.length > 0 && <><h4>{labels.deliverables}</h4><ul>{service.deliverables.map(item => <li key={item}>{item}</li>)}</ul></>}
       <h4>{labels.benefit}</h4><p>{service.benefit}</p>
       {service.note && <p className="case-note-box">{service.note}</p>}
-      <a className="text-link" href="#contact">{t.inquire}<span aria-hidden="true">↗</span></a>
+      <a className="text-link" href={getInquiryUrl(service.title)} target="_blank" rel="noopener noreferrer">{t.inquire}<span aria-hidden="true">↗</span></a>
     </div>
     <dialog ref={lightbox} className="case-lightbox" aria-label={service.imageAlt}>
       <button type="button" className="dialog-close" onClick={() => lightbox.current?.close()}>{labels.closeImage} ×</button>

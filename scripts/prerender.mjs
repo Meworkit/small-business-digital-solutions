@@ -3,7 +3,7 @@ import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import React from 'react';
 import {renderToString} from 'react-dom/server';
 const env=loadEnv('production',process.cwd(),'VITE_');
-const origin=(env.VITE_SITE_URL||'https://example.com').replace(/\/$/,'');
+const origin=(env.VITE_SITE_URL||'https://small-business-digital-solutions.pages.dev').replace(/\/$/,'');
 if(new URL(origin).protocol!=='https:')throw new Error('VITE_SITE_URL must be an HTTPS origin');
 if(new URL(origin).origin!==origin)throw new Error('VITE_SITE_URL must be an origin without a path');
 if(origin==='https://example.com')console.warn('Set VITE_SITE_URL before public deployment. Preview is marked noindex.');

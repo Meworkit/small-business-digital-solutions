@@ -1,8 +1,8 @@
 export default {
- lang:'en', title:'Websites, AI & Automation for Small Businesses', description:'Independent digital specialist in Toronto. Websites from CAD 300, online booking, practical automation, content and research. English and Russian.',
- nav:['Services','About me','Let’s talk'], brand:'ira', brandSub:'DIGITAL SOLUTIONS', location:'TORONTO, CANADA', availability:'Independent specialist · RU / EN', eyebrow:"DIGITAL SOLUTIONS · TORONTO", hero:['Websites, AI &','a little more','possibility.'], heroExact:"AI for Small Businesses", cta:"Discuss Your Project", price:'Websites from CAD 300', scroll:'Explore what we can do',
+ lang:'en', title:"Websites & Digital Solutions for Small Businesses | Ira · Toronto", description:"Websites from CAD 300, online booking and automation for Toronto small businesses. I'll help choose a practical digital solution, set it up and show you how to use it.",
+ nav:['Services','About me','Let’s talk'], brand:'ira', brandSub:'DIGITAL SOLUTIONS', location:'TORONTO, CANADA', availability:'Independent specialist · RU / EN', eyebrow:"DIGITAL SOLUTIONS · TORONTO", hero:['Websites, AI &','a little more','possibility.'], heroExact:"Websites & Digital Solutions for Small Businesses", cta:"Discuss Your Project", price:'Websites from CAD 300', scroll:'Explore what we can do',
  heroServices: [{"title": "Website Creation", "detail": "— from CAD 300"}, {"title": "Online Booking", "detail": "and appointment management"}, {"title": "Social Media Content", "detail": "and automated scheduling"}, {"title": "Customer Acquisition", "detail": "and marketing channel analysis"}, {"title": "Business Process Automation", "detail": "— inquiries, documents, and repetitive tasks"}],
- heroBenefits: {"text": "I use AI and ready-made digital tools to reduce development time and costs. I'll set everything up for your business and show you how to use it."},
+ heroBenefits: {"text": "I build websites, set up online booking, and automate everyday tasks using AI and ready-made tools. I'll help you choose the right solution, set it up, and show you how to use it."},
  servicesTitle:"What Can AI and Technology Simplify for Your Business?", demo:"Illustrative demo", example:'For example', deliverables:'What we can include', inquire:'Discuss this service',
  caseLabels: {"learnMore": "Learn more", "learnLess": "Show less", "problem": "The problem", "current": "How it often works today", "solution": "The solution", "features": "Possible features", "workflow": "Example workflow", "deliverables": "Deliverables", "benefit": "Practical benefits", "audience": "For", "enlarge": "Enlarge image", "closeImage": "Close image"},
  services: [
@@ -55,7 +55,7 @@ export default {
     "steps": [],
     "deliverables": [],
     "benefit": "Customers understand what you offer and can submit more useful inquiries. You spend less time answering the same basic questions.",
-    "note": "CAD 300 is the starting price for a simple website. Advanced calculators, complex forms, and custom functionality are quoted separately."
+    "note": "The base package starts at CAD 300 for a simple website. The exact scope and included features must be agreed before work starts; the capabilities listed are not automatically included in the base price.\n\nInteractive calculators, complex forms, and custom functionality are quoted and charged separately. Page count, timelines, additional integrations, and support terms are agreed individually."
   },
   {
     "title": "Social Media Content Packages",
@@ -150,7 +150,7 @@ export default {
  aboutCaption: "Toronto, Canada · Russian / English",
  portraitAlt: "Ira — digital solutions specialist",
  portraitPlaceholderAlt: "Placeholder for a real photograph of Ira",
- contactTitle:'Let\'s Discuss Your Project', contactIntro:"Tell me what you'd like to improve in your business. I'll help you find a practical solution.", send:'Send an Inquiry', privacy:'Privacy', privacyTitle:'Your information, handled thoughtfully', privacyText:'This form collects your email and request so Ira can respond. When enabled, Cloudflare processes the spam check and hosting, and Resend processes email delivery. There is no marketing subscription or analytics tracking. Inquiries are kept only as needed to respond and manage the work; retention and deletion requests can be discussed using the published contact email once configured. Please do not send passwords, health information, or confidential documents through this form.', cloudflarePrivacy:'Cloudflare privacy policy', close:'Close', footer:'Independent digital solutions for small businesses.', contactPlaceholder:'Contact email to be added', rights:'All rights reserved.',
+ contactTitle:'Let\'s Discuss Your Project', contactIntro:"Tell me what you'd like to improve in your business. I'll help you find a practical solution.", send:'Send an Inquiry', privacy:'Privacy', privacyTitle:'Your information, handled thoughtfully', privacyText:"Inquiries use Google Forms: your name, email and project description are shared with Google and the form owner so Ira can respond. This website has no analytics tracking or marketing subscription. Inquiry retention and deletion requests can be discussed with Ira when she replies. Please do not submit passwords, health information or confidential documents through the form.", providerPrivacy:"Google privacy policy", close:'Close', footer:'Independent digital solutions for small businesses.',  rights:'All rights reserved.',
  caseDemo: {
   "furniture": "FORM / STUDIO",
   "furnitureTitle": "Furniture made\nfor your everyday.",
